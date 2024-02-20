@@ -26,7 +26,7 @@ The search engine uses a step-by-step approach to handle HTML pages and make sea
 
 - **Trie:**
   1. The trie data structure efficiently stores words and facilitates quick searches.
-     Trie nodes store information about characters, relationships, and ranking.
+  2. Trie nodes store information about characters, relationships, and ranking.
 
 -	**Ranking Dictionary:**
   1.	A dictionary is used to store ranking information for each word in the trie.
