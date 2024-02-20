@@ -1,4 +1,4 @@
-# SearchEngine
+# Efficient Search Engine
 
 ## 
 EfficientSearchengine is a cutting-edge search engine which employs a Trie data structure for the efficient storage and retrieval of data, leading to a significant enhancement in search speed by approximately 20%. Additionally, it features an innovative auto-complete function that offers real-time suggestions to users, which has contributed to a significant increase in user engagement.
