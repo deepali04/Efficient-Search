@@ -20,9 +20,9 @@ class TrieNode:
         self.counter = 1
         self.freqList = None
         self.rank = None
-
+        
+    # String representation of TrieNode for debugging
     def __str__(self):
-        # String representation of TrieNode for debugging
         return "Node:\tchar: '{}', isPrefix: {}, isIndexTerm: {}, counter: {}, freqList: {}, rank: {}".format(
             self.char, self.isPrefix, self.isIndexTerm, self.counter, self.freqList, self.rank
         )
@@ -32,8 +32,8 @@ class Trie:
         # Trie initialization
         self.root = TrieNode(" ")
 
+    # Add word to the Trie
     def addWord(self, word: str, link: str, rank: int):
-        # Add word to the Trie
         node = self.root
         for char in word:
             if char in node.children:
